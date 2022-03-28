@@ -58,6 +58,18 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
     --border-radius-large:  100%;
     --border-radius-small:  2px;
+    /* ======= Margenes de Bottom  ===*/
+     /*  .25rem = 4px, .5rem = 8px,  .75rem = 12px .... */
+ 
+     /* --mb-0-25: .25rem;
+     --mb-0-5: .5rem;
+     --mb-0-75: .75rem; */
+      --mb-1: 1rem;
+     /* --mb-1-5: 1.5rem;
+     --mb-2: 2rem;
+     --mb-2-5: 2.5rem;
+     --mb-3: 3rem; */
+ 
   }
 
 
@@ -285,7 +297,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
     font-size: var(--menu-font-size);
     font-weight: var(--font-weight-normal);
     text-transform: uppercase;
-    padding: 2px 6px;
+    padding: 2px 4px;
   }
 
   .nav-item .nav-link.active,
@@ -656,10 +668,39 @@ https://www.tooplate.com/view/2119-gymso-fitness
     }
   }
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 760px) {
+   
+    h1 {
+      font-size: 20px;
+    }
+
+    h6, a{
+      font-size: 20px;
+    }
+    h2{
+      font-size: 25px;
+      font-style: italic;
+      font-style: justify; 
+      /* display: contents; */
+    }
+  
+    .about-working-hours {
+      border-left: 0;
+      padding: 22px 0 0 0;
+    }
+
+    .contact h2 span {
+      display: block;
+    }
+  }
+
+  /* MEDIA QUERIES */
+/* For samll devies */
+
+  @media screen and (max-width:380){
 
     h1 {
-      font-size: 38px;
+      font-size: 250px;
     }
 
     .about-working-hours {
