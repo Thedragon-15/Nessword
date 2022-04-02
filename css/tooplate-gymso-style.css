@@ -31,12 +31,12 @@ https://www.tooplate.com/view/2119-gymso-fitness
   }
 
   :root {
-    --primary-color:        #f13a11;
+    --primary-color:        #f96161;
     --white-color:          #ffffff;
     --dark-color:           #171819;
     --about-bg-color:       #f9f9f9;
 
-    --gray-color:           #909090;
+    --gray-color:           #a8a7a7;
     --link-color:           #404040;
     --p-color:              #666262;
 
@@ -227,8 +227,8 @@ https://www.tooplate.com/view/2119-gymso-fitness
   /* BG OVERLAY */
 
   .bg-overlay {
-    background: var(--dark-color);
-    position: absolute;
+    background: var(--whiter-color);
+    position:absolute;
     top: 0;
     right: 0;
     bottom: 0;
@@ -264,8 +264,9 @@ https://www.tooplate.com/view/2119-gymso-fitness
   -----------------------------------------*/
 
   .feature {
-    background: var(--dark-color);
-    padding: 5rem 0;
+    background: var(--gray-color);
+    padding: 1rem  ;
+    background-size: contain;
   }
 
 
@@ -274,7 +275,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
   -----------------------------------------*/
 
   .navbar {
-    background: var(--dark-color);
+    background: var(--gray-color);
     padding: 1rem;
   }
 
@@ -430,7 +431,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
   -----------------------------------------*/
 
   .schedule {
-    background: var(--dark-color);
+    background: var(--gray-color);
   }
 
   .schedule-table {
@@ -672,16 +673,29 @@ https://www.tooplate.com/view/2119-gymso-fitness
    
     h1 {
       font-size: 20px;
+
     }
 
-    h6, a{
+    h6 {
       font-size: 20px;
+      padding: 10px;
     }
+    a,.navbar{
+      font-size: 15px;
+    }
+    
     h2{
       font-size: 25px;
       font-style: italic;
       font-style: justify; 
+      padding: 15px;
+
       /* display: contents; */
+    }
+    p{
+      font-size: 20px;
+      padding: 1px;
+      
     }
   
     .about-working-hours {
@@ -692,6 +706,18 @@ https://www.tooplate.com/view/2119-gymso-fitness
     .contact h2 span {
       display: block;
     }
+    .bg-overlay {
+      background: var(--whiter-color);
+      position:absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0.85;
+    }
+    
   }
 
   /* MEDIA QUERIES */
