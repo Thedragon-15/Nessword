@@ -708,7 +708,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
     }
     .bg-overlay {
       background: var(--whiter-color);
-      position:absolute;
+      position:flex;
       top: 0;
       right: 0;
       bottom: 0;
