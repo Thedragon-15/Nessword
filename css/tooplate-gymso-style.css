@@ -57,7 +57,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
     --menu-font-size:       14px;
 
     --border-radius-large:  100%;
-    --border-radius-small:  2px;
+    --border-radius-small:  25px;
     /* ======= Margenes de Bottom  ===*/
      /*  .25rem = 4px, .5rem = 8px,  .75rem = 12px .... */
  
@@ -430,9 +430,11 @@ https://www.tooplate.com/view/2119-gymso-fitness
      SCHEDULE             
   -----------------------------------------*/
 
-  .schedule {
+/* .schedule {
     background: var(--gray-color);
-  }
+}
+ */
+
 
   .schedule-table {
     display: table;
@@ -658,7 +660,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
     .navbar-collapse,
     .site-footer {
       text-align: center;
-    }
+    } 
 
     .schedule-table {
       display: block;
@@ -716,6 +718,18 @@ https://www.tooplate.com/view/2119-gymso-fitness
       width: 100%;
       height: 100%;
       opacity: 0.85;
+    }
+.navbar-collapse {
+    background: var(--whiter-color);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.85;
+
     }
     
   }

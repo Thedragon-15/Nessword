@@ -17,6 +17,7 @@ body {
 .container1{
   display: flex;
   width: 90vw;
+  
 }
 
 .panel {
@@ -25,11 +26,12 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   height: 80vh;
+
   border-radius: 50px;
   color: #fff;
   cursor: pointer;
   flex: 0.5;
-  margin: 10px;
+  margin: 100px;
   position: relative;
   /* -webkit-transition: all 700ms ease-in; */
 }
@@ -58,7 +60,7 @@ body {
     
   }
   .panel {
-    left: 5rem;
+    right: 5rem;
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
